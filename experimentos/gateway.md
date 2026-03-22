@@ -21,6 +21,6 @@
 
 <img src="img/crs_gateway_diagrama.png?raw=true" alt="Diagrama do Gateway" width="600">
 
-![Diagrama do Gateway](img/crs_gateway_diagrama.png)
+![Diagrama do Gateway](main/img/crs_gateway_diagrama.png)
 
 
