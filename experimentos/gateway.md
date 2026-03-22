@@ -45,3 +45,8 @@ Logar diretamente como usuário root, ou
 
 Utilizar o comando sudo antes das instruções no terminal.
 
+### Editando o arquivo de configuração de rede
+
+Comando:
+```nano /etc/netplan/00-installer-config.yaml``
+
