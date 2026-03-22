@@ -1,13 +1,13 @@
 # Gateway
 
 
-## Objetivo
+## 1. Objetivo
 
 - Entender os conceitos relacionados a um **Gateway**  
 - Reforçar os conhecimentos de Linux, incluindo manipulação de arquivos e diretórios, arquivos de configuração, editores e comandos  
 - Utilizar um Linux Ubuntu Server para criar um gateway  
 
-### Conceitos envolvidos
+### 2. Conceitos envolvidos
 * IP público e privado  
 * Gateway  
 * Encaminhamento de pacotes  
@@ -17,8 +17,15 @@
 
 ---
 
-## Diagrama do Experimento
+## 3. Diagrama do Experimento
 
 ![Diagrama do Gateway](../img/crs_gateway_diagrama.png)
+
+## 4. Configurar placas de rede
+
+* Uma máquina gateway (gw), precisa ter duas placas de rede (reais ou virtuais), uma fica ligada na rede interna e outra fica ligada na saída para a internet.
+* A placa 0 será a saída e fica com ip automático (dhcp).
+* A placa 1 será a ligação com a rede interna e ficará com ip estático.
+* É preciso modificar o arquivo de configuração das interfaces de rede. Seguem os comandos e um exemplo de arquivo de configuração.
 
 
