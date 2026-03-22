@@ -32,7 +32,7 @@ Comandos a serem utilizados.
 
 | Laboratório | Tema                                                                 | Link    |
 |-------------|----------------------------------------------------------------------|---------|
-| 01          | Gateway                                                              | Acessar |
+| 01          | Gateway                                                              | [Acessar](https://github.com/diegomoliveiraprof/CSR/blob/main/experimentos/gateway.md) |
 | Comandos    | Comandos úteis                                                       | Acessar |
 
 
