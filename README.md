@@ -1,8 +1,12 @@
 **Instituto Federal de Brasília - IFB - Campus Taguatinga**
+
 **Disciplina:** Configuração de Serviços de Rede
+
 **Curso:** Curso Técnico em Manutenção e Suporte em Informática
+
 **Professor:** Prof. Me. Diego Martins de Oliveira
-__________--
+
+__________
 
 # Apresentação
 A componente de Configuração de Serviços de Rede compoe a 
