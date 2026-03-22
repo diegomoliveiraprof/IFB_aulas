@@ -19,3 +19,4 @@
 
 ## Diagrama do Experimento
 
+![Logo da UnB](https://www.unb.br/images/logo.png)
