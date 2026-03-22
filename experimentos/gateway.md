@@ -19,5 +19,5 @@
 
 ## Diagrama do Experimento
 
-<img src="https://github.com/diegomoliveiraprof/CSR/blob/main/CRS%20Gateway%20diagrama.png?raw=true" alt="Diagrama do Gateway" width="600">
+<img src="img/CRS Gateway diagrama.png?raw=true" alt="Diagrama do Gateway" width="600">
 
