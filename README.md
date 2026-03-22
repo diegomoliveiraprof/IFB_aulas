@@ -22,9 +22,19 @@ A estrutura do repositório segue o padrão abaixo:
 
 Cada laboratório possui um diretório próprio contendo:
 
-Fundamentação teórica e conceitos;
-Roteiro do experimento;
-Comandos a serem utilizados.
+Fundamentação teórica e conceitos;  
+Roteiro do experimento;  
+Comandos a serem utilizados.  
+
+---
+
+# Laboratórios/Experimentos
+
+| Laboratório | Tema                                                                 | Link    |
+|-------------|----------------------------------------------------------------------|---------|
+| 01          | Gateway                                                              | Acessar |
+| Comandos    | Comandos úteis                                                       | Acessar |
+
 
 
 
