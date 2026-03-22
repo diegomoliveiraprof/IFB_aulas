@@ -30,4 +30,8 @@
 * É preciso modificar o arquivo de configuração das interfaces de rede.
 * Seguem os comandos e um exemplo de arquivo de configuração.
 
+## 5. Configuração de rede
+
+Para configurar a rede é necessário editar o arquivo de configuração, que no caso do Ubuntu é `/etc/netplan/00-installer-config.yaml`, o edidor de texto que utilizaremos é o nano `nano`.
+Para ser capaz de modificar arquivos de configuração é necessário utilizar permissões de super usuário, neste caso pode se logar diretamente como usuário `root` ou usar o `sudo` antes dos comandos.
 
