@@ -51,4 +51,5 @@ Comando:
 ```
 nano /etc/netplan/00-installer-config.yaml
 ```
+_**Obs.:** Arquivos com extensão .yaml NÃO suportam tabulação. Portanto, não utilize a tecla TAB ao editar esses arquivos; use apenas espaços para indentar corretamente._
 
