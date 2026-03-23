@@ -174,3 +174,16 @@ Essas configurações garantem tanto a segurança quanto o encaminhamento adequa
 | `sudo iptables -L -t nat`       | Lista as regras de NAT do iptables                                     |
 | `sudo iptables -F -t nat`       | Desativa o NAT                                                         |
 | `sudo iptables -F`              | Limpa as regras de firewall, permitindo que todos os pacotes trafeguem |
+
+
+### Regra para ativar o NAT no IPTABLES
+
+Para que a navegação funcione devidamente entre a rede interna e a rede externa, o NAT deverá ser ativado na interface de saída do **Gateway**.
+
+Comando:
+
+```
+iptables -t nat -A POSTROUTING -o nome_placa_0 -j MASQUERADE 
+```
+
+Onde o "nome_placa_0", deve ser substituido pelo nome da interface de saída do **Gateway**.
