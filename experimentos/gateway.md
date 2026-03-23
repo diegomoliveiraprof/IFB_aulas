@@ -245,6 +245,26 @@ O arquivo tipo _script_ poderia ser criado em qualquer ponto (diretório) do sis
 
 Criando o arquivo:   
 ```
-nano /usr/local/bin
+nano /usr/local/bin/nat.sh
 ```
 
+O _script_ deve conter uma funcionalidade de _start_ para adicionar a regra de NAT ao IPTABLES, uma funcionalidade de _stop_ para remover a regra e uma de funcionalidade de _restart_.   
+
+Após criar o arquivo é necessário acertar as permissões para ele se torne executável.   
+
+Comando:   
+```
+chmod 740 /usr/local/bin/nat.sh
+```
+
+Executando o _script_:
+```
+bash /usr/local/bin/nat.sh start
+ou
+bash /usr/local/bin/nat.sh stop
+ou
+bash /usr/local/bin/nat.sh restart
+```
+Testes:   
+Para testar, novamente basta listar as regras do IPTABLES e verificar se foram aplicadas ou apagadas como deveiram de acordo com a opção usada no _script_.  
+Testes de navegação nas máquinas clientes tambpem devem ser realizados.
