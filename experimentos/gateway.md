@@ -217,6 +217,7 @@ Saída:
 
 ### Teste de conexão externa com navegação
 
-O teste de navegação pode ser realizado com qualquer navegador em qualquer site.   
+O teste de navegação pode ser realizado com qualquer navegador em qualquer site.  
+Saída:   
 <img width="1232" height="619" alt="navegacao" src="https://github.com/user-attachments/assets/b2623c37-7c70-4ff9-9515-1afbae303f7b" />
 
