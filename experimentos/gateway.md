@@ -164,14 +164,6 @@ reboot
 Para que a comunicação entre as máquinas da rede interna e da rede externa ocorra de forma eficiente, é necessário configurar corretamente as regras de firewall do iptables e também as regras de NAT.   
 Essas configurações garantem tanto a segurança quanto o encaminhamento adequado dos pacotes entre as redes.
 
-### Comandos básicos de listagem e limpeza do IPTABLES
-
-| Comando                   | Função                                                                 | Exemplo de uso / Saída esperada                                                                 |
-|----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| `sudo iptables -L`         | Lista as regras de firewall do iptables                                | Exibe todas as regras aplicadas às cadeias padrão (INPUT, OUTPUT, FORWARD). Útil para verificar bloqueios. |
-| `sudo iptables -L -t nat`  | Lista as regras de NAT do iptables                                     | Mostra regras de tradução de endereços (SNAT/DNAT). Exemplo: verificar se há regra de mascaramento ativa. |
-| `sudo iptables -F -t nat`  | Desativa o NAT                                                         | Remove todas as regras de NAT. Exemplo: após executar, máquinas internas podem perder acesso à internet. |
-| `sudo iptables -F`         | Limpa as regras de firewall, permitindo que todos os pacotes trafeguem | Zera todas as regras de INPUT/OUTPUT/FORWARD. Exemplo: após executar, qualquer tráfego é permitido sem restrição. |
 
 
 ### Comandos básicos de listagem e limpeza do IPTABLES
