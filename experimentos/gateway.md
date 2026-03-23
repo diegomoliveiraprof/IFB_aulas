@@ -113,8 +113,8 @@ Saida:
 Agora que o **Gatway** já tem endereço IP, deve se configurar as demais máquinas, manualmente com endereços que perteçam a mesma rede.   
 Após configurar as outras máquinas, deve se fazer o teste de conexão entre todas para certificar que a rede foi corretamente configurada, e que todas as máquinas tem acesso ao **Gateway**.
 
-O comando `ping` pode ser utilizado para realizar o teste de conexão.   
-Exemplo:
+O comando `ping` pode ser utilizado de uma máquina para outra, para realizar o teste de conexão.   
+Exemplo: ping disparado da máquina Windows para o endereço do **Gateway**.
 
 <img width="658" height="400" alt="ping" src="https://github.com/user-attachments/assets/a1960086-501f-4aec-891e-a2552b3ae3e6" />
 
