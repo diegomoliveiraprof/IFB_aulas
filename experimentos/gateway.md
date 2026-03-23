@@ -110,4 +110,5 @@ Saida:
 <img width="747" height="556" alt="ifconfig" src="https://github.com/user-attachments/assets/dcef2199-f74e-4f04-8adb-67a30e09e550" />
 
 
-
+Agora que o **Gatway** já tem endereço IP, deve se configurar as demais máquinas, manualmente com endereços que perteçam a mesma rede.   
+Após configurar as outras máquinas, deve se fazer o teste de conexão entre todas para certificar que a rede foi corretamente configurada, e que todas as máquinas tem acesso ao **Gateway**.
