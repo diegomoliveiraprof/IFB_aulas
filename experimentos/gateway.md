@@ -17,6 +17,7 @@
 
 ---
 
+
 ## 3. Diagrama do Experimento
 
 ![Diagrama do Gateway](../img/crs_gateway_diagrama.png)
@@ -227,6 +228,6 @@ Saída:
 O IPTABLES responsável por implementar o NAT no sistema, tem o comportamento padrão de **não** salvar o estado atual, após uma reinicialização do sistema, ou seja, em seu funcionamento normal, se o sistema for reiniciado, todas as regras são apagadas.  
 Existem diferentes formas de resolver ou contornar esse comportamento, como salvar as regras e reaplicar por exemplo.   
 
-Neste exeperimento para fins de aprendizagem será utilizada a abordagem de criar um __script__ para que a regra de NAT possa ser reaplicada quando o sistema reiniciar.   
+Neste exeperimento para fins de aprendizagem será utilizada a abordagem de criar um _script_ para que a regra de NAT possa ser reaplicada quando o sistema reiniciar.   
 
 _Obs.: Posteriormente em aulas específicas de IPTABLES será demonstrado como salvar as regras para que sejam reaplicadas automáticamente_
