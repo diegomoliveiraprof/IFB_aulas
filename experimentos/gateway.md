@@ -82,6 +82,11 @@ No arquivo, deve ser adicionada a placa de rede adicional e as configurações q
 
 ![netplan](https://github.com/user-attachments/assets/cf6190a9-5738-4885-8261-fa974c948b8b)
 
+```
+ctrl+o -> salvar
+Enter
+ctrl+x --> sair do arquivo
+```
 
 Após a edição do arquivo é necessário aplicar as novas configurações.   
 Comando:   
