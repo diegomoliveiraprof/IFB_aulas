@@ -57,7 +57,7 @@ Comando:
 ```
 networkcl
 
-```   
+```
 Saída   
 
   <img width="467" height="217" alt="crs_netwokclt" src="https://github.com/user-attachments/assets/a06414af-688a-449a-aae8-ba8b74dd5006" />
@@ -65,7 +65,7 @@ Saída
 
 Neste caso a interface `ens3 é a primeira e ens4 é segunda inteface física`    
 
-Editando o carquivo de configuração de rede.   
+Editando o arquivo de configuração de rede.   
 O comando `ls /etc/netplan` deve ser utilizado para verificar qual o nome correto do arquivo antes de tentar editar.  
 
 Comando:   
@@ -75,14 +75,13 @@ ou
 nano /etc/netplan/01-netcfg.yaml
 ```
 
-
 _**Obs.:** Arquivos com extensão `.yaml` NÃO suportam tabulação.   
 Portanto, não utilize a tecla `TAB` ao editar esses arquivos;    
 use apenas espaços para indentar corretamente._   
 
 
 
-No arquivo, deve ser adicionada a placa de rede adicional e as configurações que dizem respeito a ela, neste caso a primeira placa fica com DHCP ativo, e irá obter endereço IP automáticamente e a segunda placa fica com DHCP desativado e o endereço IP deve ser configurado manualmente.
+No arquivo, deve ser adicionada a placa de rede adicional e as configurações que dizem respeito a ela, neste caso a primeira placa fica com DHCP ativo, e irá obter endereço IP automaticamente e a segunda placa fica com DHCP desativado e o endereço IP deve ser configurado manualmente.
 
 ![netplan](https://github.com/user-attachments/assets/cf6190a9-5738-4885-8261-fa974c948b8b)
 
@@ -109,12 +108,11 @@ Comando:
 ifconfig
 ```
 
-Saida:
+Saída:
 
 <img width="747" height="556" alt="ifconfig" src="https://github.com/user-attachments/assets/dcef2199-f74e-4f04-8adb-67a30e09e550" />
 
-
-Agora que o **Gatway** já tem endereço IP, deve se configurar as demais máquinas, manualmente com endereços que perteçam a mesma rede.   
+Agora que o **Gatway** já tem endereço IP, deve se configurar as demais máquinas, manualmente com endereços que pertençam a mesma rede.   
 Após configurar as outras máquinas, deve se fazer o teste de conexão entre todas para certificar que a rede foi corretamente configurada, e que todas as máquinas tem acesso ao **Gateway**.
 
 O comando `ping` pode ser utilizado de uma máquina para outra, para realizar o teste de conexão.  
@@ -172,12 +170,12 @@ Essas configurações garantem tanto a segurança quanto o encaminhamento adequa
 
 ### Comandos básicos de listagem e limpeza do IPTABLES
 
-| Comando                         | Função                                                                 |
-|---------------------------------|------------------------------------------------------------------------|
-| `sudo iptables -L`              | Lista as regras de firewall do iptables                                |
-| `sudo iptables -L -t nat`       | Lista as regras de NAT do iptables                                     |
-| `sudo iptables -F -t nat`       | Desativa o NAT                                                         |
-| `sudo iptables -F`              | Limpa as regras de firewall, permitindo que todos os pacotes trafeguem |
+| Comando                   | Função                                                       |
+| ------------------------- | ------------------------------------------------------------ |
+| `sudo iptables -L`        | Lista as regras de firewall do iptables                      |
+| `sudo iptables -L -t nat` | Lista as regras de NAT do iptables                           |
+| `sudo iptables -F -t nat` | Desativa o NAT                                               |
+| `sudo iptables -F`        | Limpa as regras de firewall, permitindo que todos os pacotes trafeguem |
 
 
 ### Regra para ativar o NAT no IPTABLES
@@ -227,7 +225,7 @@ Saída:
 
 
 
----   
+---
 
 
 ## 9 Automatizando o NAT
@@ -235,9 +233,9 @@ Saída:
 O IPTABLES responsável por implementar o NAT no sistema, tem o comportamento padrão de **não** salvar o estado atual, após uma reinicialização do sistema, ou seja, em seu funcionamento normal, se o sistema for reiniciado, todas as regras são apagadas.  
 Existem diferentes formas de resolver ou contornar esse comportamento, como salvar as regras e reaplicar por exemplo.   
 
-Neste exeperimento para fins de aprendizagem será utilizada a abordagem de criar um _script_ para que a regra de NAT possa ser reaplicada quando o sistema reiniciar.   
+Neste experimento para fins de aprendizagem será utilizada a abordagem de criar um _script_ para que a regra de NAT possa ser reaplicada quando o sistema reiniciar.   
 
-_Obs.: Posteriormente em aulas específicas de IPTABLES será demonstrado como salvar as regras para que sejam reaplicadas automáticamente_
+_Obs.: Posteriormente em aulas específicas de IPTABLES será demonstrado como salvar as regras para que sejam reaplicadas automaticamente_
 
 ### Criando o _script_
 
@@ -266,5 +264,5 @@ ou
 bash /usr/local/bin/nat.sh restart
 ```
 Testes:   
-Para testar, novamente basta listar as regras do IPTABLES e verificar se foram aplicadas ou apagadas como deveiram de acordo com a opção usada no _script_.  
-Testes de navegação nas máquinas clientes tambpem devem ser realizados.
+Para testar, novamente basta listar as regras do IPTABLES e verificar se foram aplicadas ou apagadas como deveriam de acordo com a opção usada no _script_.  
+Testes de navegação nas máquinas clientes também devem ser realizados.
