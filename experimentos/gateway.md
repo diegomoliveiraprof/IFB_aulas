@@ -147,3 +147,12 @@ Resultado:
 ```
 net.ipv4.ip_forward=1
 ```
+
+Salvar o arquivo, sair e reiniciar a máquina
+
+```
+ctrl+o --> salvar
+Enter
+ctrl+x --> sair do arquivo
+reboot
+```
