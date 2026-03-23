@@ -61,7 +61,8 @@ Saída
   <img width="467" height="217" alt="crs_netwokclt" src="https://github.com/user-attachments/assets/a06414af-688a-449a-aae8-ba8b74dd5006" />
 
 
-Neste caso a interface `ensp03 é a primeira e ensp8 é segunda inteface física`    
+Neste caso a interface `ens3 é a primeira e ens4 é segunda inteface física`    
+
 Comando:   
 ```
 nano /etc/netplan/00-installer-config.yaml
