@@ -76,3 +76,6 @@ _**Obs.:** Arquivos com extensão `.yaml` NÃO suportam tabulação.
 Portanto, não utilize a tecla `TAB` ao editar esses arquivos;    
 use apenas espaços para indentar corretamente._   
 
+
+
+No arquivo, deve ser adicionada a placa de rede adicional e as configurações que dizem respeito a ela, neste caso a primeira placa fica com DHCP ativo, e irá obter endereço IP automáticamente e a segunda placa fica com DHCP desativado e o endereço IP deve ser configurado manualmente.
