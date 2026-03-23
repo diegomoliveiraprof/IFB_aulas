@@ -186,7 +186,16 @@ Comando:
 iptables -t nat -A POSTROUTING -o nome_placa_0 -j MASQUERADE 
 ```
 
-Onde o "nome_placa_0", deve ser substituido pelo nome da interface de saída do **Gateway**.
+Onde "nome_placa_0", deve ser substituido pelo nome da interface de saída do **Gateway**.
 
 <img width="902" height="167" alt="nat_comando" src="https://github.com/user-attachments/assets/8c2af389-2d2a-4353-91a1-1863b8f6dc39" />
+
+
+Após aplicar a regra, é possível verificar se ela entrou na lista do IPTABLES com comando demonstrado na tabela anterior.
+
+Saída:
+
+<img width="538" height="302" alt="nat_list" src="https://github.com/user-attachments/assets/7c649e9a-fb25-487b-810c-3dfe1ab5c692" />
+
+
 
