@@ -221,3 +221,12 @@ O teste de navegação pode ser realizado com qualquer navegador em qualquer sit
 Saída:   
 <img width="1232" height="619" alt="navegacao" src="https://github.com/user-attachments/assets/b2623c37-7c70-4ff9-9515-1afbae303f7b" />
 
+
+## 9 Automatizando o NAT
+
+O IPTABLES responsável por implementar o NAT no sistema, tem o comportamento padrão de **não** salvar o estado atual, após uma reinicialização do sistema, ou seja, em seu funcionamento normal, se o sistema for reiniciado, todas as regras são apagadas.  
+Existem diferentes formas de resolver ou contornar esse comportamento, como salvar as regras e reaplicar por exemplo.   
+
+Neste exeperimento para fins de aprendizagem será utilizada a abordagem de criar um __script__ para que a regra de NAT possa ser reaplicada quando o sistema reiniciar.   
+
+__**Obs.: Posteriormente em aulas específicas de IPTABLES será demonstrado como salvar as regras para que sejam reaplicadas automáticamente**__
