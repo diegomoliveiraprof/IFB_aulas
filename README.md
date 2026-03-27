@@ -10,8 +10,8 @@
 
 | Curso | Disciplina                                                                 | Link    |
 |-------------|----------------------------------------------------------------------|---------|
-| Técnico em Suporte e Manutenção em Informática | Módulo III - Configuração de Serviços de Rede                                                              | [Acessar](https://github.com/diegomoliveiraprof/CSR/blob/main/experimentos/gateway.md) |
-| Comandos    | Comandos úteis                                                       | Acessar |
+| Técnico em Suporte e <br>Manutenção em Informática | Módulo III - Configuração de Serviços de Rede - **CSR**                                                              | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/disciplinas/TMSI-CSR.md)|
+
 
 
 
