@@ -33,4 +33,5 @@ Comandos a serem utilizados.
 | Laboratório | Tema                                                                 | Link    |
 |-------------|----------------------------------------------------------------------|---------|
 | 01          | Gateway                                                              | [Acessar](https://github.com/diegomoliveiraprof/CSR/blob/main/experimentos/gateway.md) |
+| 02          | Systemd                                                              | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/systemd.md) |
 | Comandos    | Comandos úteis                                                       | Acessar |
