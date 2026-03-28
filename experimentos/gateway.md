@@ -266,3 +266,8 @@ bash /usr/local/bin/nat.sh restart
 Testes:   
 Para testar, novamente basta listar as regras do IPTABLES e verificar se foram aplicadas ou apagadas como deveriam de acordo com a opção usada no _script_.  
 Testes de navegação nas máquinas clientes também devem ser realizados.
+
+Exemplo do _script_ pronto:   
+
+<img width="1365" height="784" alt="internetNAT (3)" src="https://github.com/user-attachments/assets/39a2b597-fa23-4336-9e27-f88ec5d49071" />
+
