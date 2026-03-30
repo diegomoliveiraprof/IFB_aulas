@@ -32,6 +32,6 @@ Comandos a serem utilizados.
 | Laboratório | Tema                                                                 | Link    |
 |-------------|----------------------------------------------------------------------|---------|
 | 01          | Experimento 01 - HTTP                                                              | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/edit/main/disciplinas/TMSI-SOAR.md) |
-| 02          | Experimento 02 - Wireshark Lab                                                             | [Acessar]([https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/systemd.md](https://github.com/diegomoliveiraprof/IFB_aulas/edit/main/disciplinas/TMSI-SOAR.md)) |
+| 02          | Experimento 02 - Wireshark Lab                                                             | [Acessar]([https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/systemd.md](https://github.com/diegomoliveiraprof/IFB_aulas/edit/main/disciplinas/TMSI-SOAR.md) |
 | Comandos    | Comandos úteis                                                       | Acessar |
 
