@@ -40,14 +40,10 @@ Executar o experimento e responder às questões em um relatório, utilizar _pri
 
 2. Quanto tempo levou desde o envio do HTTP GET da sua máquina até o HTTP OK do servidor ser recebido? Por padrão a coluna time está em segundos, para ver em formato data-hora, selecione o menu ``View > Time display format > Date and Time of Day`` . Utilize um _print_ da tela para  justificar sua resposta.
 
-   
+ 
 
-3. Imprima em PDF os dois pacotes (GET e OK) encontrados na questão anterior. Para isso vá no menu ``File > Print `` , selecione ``Specify a packet range:`` coloque o numero dos pacotes Ex. 166,173 e clique me ``Print`` Anexe o PDF ao seu relatório.
-
-   
-
-4. Qual é o endereço IP do servidor e qual é o endereço IP da sua máquina? Utilize um _print_ da tela para  justificar sua resposta.
+3. Qual é o endereço IP do servidor e qual é o endereço IP da sua máquina? Utilize um _print_ da tela para  justificar sua resposta.
 
    
 
-5. Quais os campos nas camadas apresentadas no pacote GET que indicam o tipo de informação presente no _payload_ de cada camada? Utilize um _print_ da tela para  justificar sua resposta.
+4. Quais os campos nas camadas apresentadas no pacote GET que indicam o tipo de informação presente no _payload_ de cada camada? Utilize um _print_ da tela para  justificar sua resposta.
