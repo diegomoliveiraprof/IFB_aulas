@@ -81,11 +81,8 @@ Ao realizar esta prática, o aluno irá:
 
 
 
-
-   
-    
-
-
-
 É possível salvar o cenário para depois abrir, testar e editar novamente.
+
+## Validação
+Mostrar ao professor o cenário configurado funcionando.
 
