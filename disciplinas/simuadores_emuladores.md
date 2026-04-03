@@ -60,5 +60,5 @@
 - **Emuladores** (como PNETLab e GNS3) são voltados para quem precisa de realismo, complexidade e prática avançada.  
 - Ambos são complementares: o simulador ajuda a aprender a lógica, e o emulador prepara para o mundo real.
 
-[Principais opções de simuladores e emuladores >>](simuladores_emuladores_p2.md)
+[Proximo >>](simuladores_emuladores_p2.md)
 
