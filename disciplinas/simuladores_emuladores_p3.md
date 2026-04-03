@@ -1,4 +1,10 @@
-# Aula Básica sobre Cisco Packet Tracer
+
+
+
+# Aula Básica sobre Cisco Packet Tracer 
+
+<img width="286" height="176" alt="packet_logo" src="https://github.com/user-attachments/assets/9c0a571a-e286-4bdc-ad71-aa3c38e54a53" />      
+
 
 ---
 
