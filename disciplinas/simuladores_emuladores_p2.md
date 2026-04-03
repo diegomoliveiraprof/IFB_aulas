@@ -51,7 +51,7 @@
 
 ---
 
-## 🔹 Comparação rápida
+## Comparação rápida
 
 | Ferramenta       | Tipo        | Complexidade   | Público-alvo                  |
 |------------------|-------------|----------------|--------------------------------|
