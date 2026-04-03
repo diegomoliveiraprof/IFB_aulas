@@ -62,4 +62,4 @@
 | **Boson NetSim** | Simulador   | Intermediária  | Estudantes Cisco               |
 | **NS-3**         | Simulador   | Acadêmica      | Pesquisadores                  |
 
-[<< voltar](simuadores_emuladores.md)&nbsp;&nbsp;&nbsp;[proximo >> ](simuladores_emuladores_p3.md)
+[<< voltar](simuadores_emuladores.md)&nbsp;&nbsp;&nbsp;[próximo >> ](simuladores_emuladores_p3.md)
