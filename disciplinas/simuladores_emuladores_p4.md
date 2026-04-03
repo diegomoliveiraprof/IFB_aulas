@@ -1,5 +1,8 @@
 # Aula Básica sobre PNETLab
 
+<img width="219" height="230" alt="logo_pnet" src="https://github.com/user-attachments/assets/a1a2eb3e-9b5c-4a6e-8420-2a56477df4fd" /> <img width="1325" height="789" alt="image" src="https://github.com/user-attachments/assets/8b1fd05d-27a1-469d-bc5b-b993ab58cf6a" />
+
+
 ---
 
 ## 1. O que é o PNETLab?
