@@ -1,0 +1,47 @@
+# Aula Básica sobre PNETLab
+
+---
+
+## 1. O que é o PNETLab?
+- O **PNETLab** é um **emulador de redes** baseado no EVE-NG.  
+- Permite executar **imagens reais de sistemas operacionais de roteadores, switches e firewalls** em um ambiente virtual.  
+- É uma alternativa gratuita e acessível para quem deseja criar laboratórios complexos de redes.  
+
+---
+
+## 2. Principais funcionalidades
+- **Emulação realista**: suporta IOS da Cisco, Juniper, Fortinet, Mikrotik, Palo Alto, entre outros.  
+- **Interface gráfica via navegador**: fácil de usar, sem necessidade de instalar cliente adicional.  
+- **Integração com máquinas virtuais**: pode rodar VMs Linux e Windows junto com dispositivos de rede.  
+- **Laboratórios complexos**: ideal para simular ambientes corporativos e cenários de certificação.  
+- **Colaboração**: permite compartilhar topologias com outros usuários.  
+
+---
+
+## 3. Vantagens
+- Gratuito e acessível.  
+- Suporte a múltiplos fabricantes e sistemas.  
+- Ambiente muito próximo ao real, ideal para prática avançada.  
+- Excelente para quem busca certificações como **CCNP** e **CCIE**.  
+
+---
+
+## 4. Limitações
+- Requer hardware mais robusto (CPU, RAM) para rodar múltiplas imagens.  
+- Configuração inicial pode ser mais complexa que simuladores como o Packet Tracer.  
+- Necessário obter imagens oficiais dos fabricantes (não fornecidas pelo PNETLab).  
+
+---
+
+## 5. Exemplo de uso básico
+1. Acessar a interface web pelo navegador.  
+2. Criar um novo projeto/laboratório.  
+3. Adicionar dispositivos (roteadores, switches, PCs).  
+4. Conectar os dispositivos com links virtuais.  
+5. Iniciar as máquinas e configurar como se fossem equipamentos reais.  
+
+---
+
+## 6. Conclusão
+O **PNETLab** é uma ferramenta poderosa para quem deseja praticar redes em um ambiente próximo ao real.  
+Enquanto o **Packet Tracer** é ideal para iniciantes, o **PNETLab** atende estudantes avançados e profissionais que precisam simular cenários complexos e se preparar para certificações de alto nível.  
