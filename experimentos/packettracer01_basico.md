@@ -1,4 +1,4 @@
-# Experimento básico de Packet Tracer
+# Experimento Packet Tracer - cenário básico
 
 ## OBJETIVO
 O objetivo principal desta atividade é **introduzir o uso do Cisco Packet Tracer** e permitir que o estudante compreenda os conceitos básicos de redes de computadores.  
