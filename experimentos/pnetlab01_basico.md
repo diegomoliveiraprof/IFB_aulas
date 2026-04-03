@@ -29,6 +29,7 @@ Nesta atividade, o estudante deverá:
 - Testar a **navegação via navegador**.  
 - Utilizar o **sniffer Wireshark** para capturar e analisar os quadros de rede.  
 
+[Link PNETLab_cenario_basico](https://drive.google.com/file/d/1YoJMl3fagc0TZIkaiX88afGV5tPUK2rh/view?usp=sharing)
 
 ---
 ### Validação
