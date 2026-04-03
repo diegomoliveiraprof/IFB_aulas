@@ -43,7 +43,7 @@
 
 ---
 
-## 5. Exemplo de uso básico
+## 5. Exemplo de uso
 
 [Experimento - cenário básico](/experimentos/packettracer01_basico.md)   
 [Experimento - cenário webserver](/experimentos/packettracer02_webserver.md) 
