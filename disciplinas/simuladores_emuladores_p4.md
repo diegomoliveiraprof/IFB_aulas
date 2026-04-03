@@ -36,7 +36,7 @@
 
 ---
 
-## 5. Exemplo de uso básico
+## 5. Exemplo de uso
 [Experimento PNETLab básico](/experimentos/pnetlab01_basico.md)
 
 ---
