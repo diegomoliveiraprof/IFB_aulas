@@ -47,7 +47,7 @@
 1. Inserir **roteador, switch e PCs** na área de trabalho.  
 2. Conectar os dispositivos com cabos adequados.  
 3. Configurar **endereços IP** em cada PC.  
-[Experimento - cenário básico](/experimentos/packettracer01_basico.md)
+[Experimento - cenário básico](/experimentos/packettracer01_basico.md)   
 [Experimento - cenário webserver](/experimentos/packettracer02_webserver.md) 
 
 ---
