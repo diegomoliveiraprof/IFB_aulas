@@ -16,7 +16,7 @@ Executar o experimento e responder às questões em um relatório, utilizar _pri
 
 2. Abra o Wireshark e inicie uma captura na interface de rede ativa.
 
-3. No navegador abra o site: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html 
+3. No navegador abra o site: <a href="http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html" target="_blank" rel="noopener noreferrer">http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html</a>
 
 4. Depois que seu navegador mostrar a mensagem de parabéns "_Congratulations! You've downloaded the first Wireshark lab file!_", pare a captura no Wireshark.
 
