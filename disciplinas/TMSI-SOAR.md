@@ -31,7 +31,8 @@ Comandos a serem utilizados.
 
 | Laboratório | Tema                                                                 | Link    |
 |-------------|----------------------------------------------------------------------|---------|
-| 01          | Experimento 01 - HTTP                                                              | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/experimento_http.md) |
-| 02          | Experimento 02 - Wireshark Lab                                                             | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/wireshark_lab.md) |
+| 01          | Experimento 01 - HTTP | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/experimento_http.md) |
+| 02          | Experimento 02 - Wireshark Lab | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/wireshark_lab.md) |
+| 02          | Experimento 03 - End. MAC e Protocolo ARP | [Acessar](https://github.com/diegomoliveiraprof/IFB_aulas/blob/main/experimentos/wireshark_lab.md) |
 | Comandos    | Comandos úteis                                                       | Acessar |
 
