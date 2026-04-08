@@ -109,7 +109,7 @@ ExecReload=/bin/bash /usr/local/bin/nat.sh restart
 
 [Install]
 WantedBy=multi-user.target
-Alias=internet.service
+Alias=nat.service
 ```
 Savar o arquivo e sair.   
 
