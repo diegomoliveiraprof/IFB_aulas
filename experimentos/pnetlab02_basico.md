@@ -12,6 +12,7 @@ Com este experimento, o aluno irá:
 - 
 
 ## Experimento
+<img width="482" height="451" alt="Captura de tela de 2026-04-09 08-40-38" src="https://github.com/user-attachments/assets/5595ef1d-54fe-4e86-b08b-dc3dac697a32" />
 
 Nesta atividade, o estudante deverá:
 
