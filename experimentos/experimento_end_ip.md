@@ -30,7 +30,54 @@ O estudante deverá configurar uma rede no simulador:
   | PC2         | 10.10.1.11 | 255.255.255.0 | 10.10.1.1 |
   | R1 - G0/0   | 10.10.2.20 | 255.255.255.0 | -         |
 
+  **Exemplo de configuração:**
   
+  Não utiize as redes deste exemplo, utilize a rede 10.10.0.0/16
+
+  ```
+   Rede Original
+   192.168.0.0/16
+   
+   Rede divida
+   6 redes /24
+   
+   
+   Rede original 192.168.0.0/16
+   Rede 1 - 192.168.10.0/24
+   
+   Rede 2 - 192.168.11.0/24
+   
+   Rede 3 - 192.168.21.0/24
+   
+   Rede 4 - 192.168.30.0/24
+   
+   Rede 5 - 192.168.45.0/24
+   
+   Rede 6 - 192.168.51.0/24
+   
+   Configuração dos roteadores
+   =============================================
+   Roteador 1  -- repita a configuração com R2 e R3 adaptando os endereços
+
+   enable
+   conf t
+   int g0/0
+   ip add 192.168.10.1 255.255.255.0
+   no shut
+   int g1/0
+   ip add 192.168.30.1 255.255.255.0
+   no shut
+   int g2/0
+   ip add 192.168.45.1 255.255.255.0
+   no shut
+
+   router rip
+   version 2
+   network 192.168.10.0
+   network 192.168.30.0
+   network 192.168.45.0
+  ```
+
 
 ### Parte 2 - análise de endereçamento IP e rotas
 
