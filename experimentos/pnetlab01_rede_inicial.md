@@ -25,6 +25,7 @@ Com este experimento, o aluno irá:
 Nesta atividade, o estudante deverá:
 
 ### Parte 1 - Criando rede inicial
+<img width="495" height="277" alt="Captura de tela de 2026-04-09 08-27-06" src="https://github.com/user-attachments/assets/949e1eda-33fe-4f1e-bd35-f3c47e8fbe52" />
 
 - Adicionar um **switch**: *`node > Cisco IOL > Image: L2-ADVENTER...`*
 
@@ -69,6 +70,7 @@ Nesta atividade, o estudante deverá:
 
 
 ### Parte 2 - Conectando a rede à Internet
+<img width="483" height="430" alt="Captura de tela de 2026-04-09 08-31-46" src="https://github.com/user-attachments/assets/e4733b90-b9d3-475c-81b8-e741ddd0b059" />
 
 - Adicionar uma **Network** do tipo *Cloud_nat*: *`node > Network > Type: Cloud_nat`*   
 
