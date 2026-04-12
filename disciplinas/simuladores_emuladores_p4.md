@@ -38,7 +38,8 @@
 
 ## 5. Exemplo de uso
 [Experimento PNETLab rede inical](/experimentos/pnetlab01_rede_inicial.md)   
-[Experimento PNETLab rede básico](/experimentos/pnetlab02_basico.md)
+[Experimento PNETLab rede básico](/experimentos/pnetlab02_basico.md)   
+[Experimento PNETLab multicast](/experimentos/pnetlab_multicast.md)
 
 ---
 
