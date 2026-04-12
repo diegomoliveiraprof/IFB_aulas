@@ -1,4 +1,4 @@
-# Experimento de demonstração de laboratório no pnetlab
+# Experimento PnetLab - Muilticast
 
 
 
