@@ -48,7 +48,7 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 | VM Linux MATE | Máquina VM | Linux MATE completa                                  |1|
 | MATE Docker.io | Container Docker | pnetlab/linux-desktio:latest |2|
 
-
+**Obs.:** _As imagems de VMs completas (Xubuntu e MATE) podem ser substituidas pelo MATE Docker.io que é bem mais leve, basta instalar o VLC nele._
 
 ---
 
