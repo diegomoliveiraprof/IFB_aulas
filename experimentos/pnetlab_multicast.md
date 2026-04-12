@@ -48,8 +48,9 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 | VM Linux MATE | Máquina VM | Linux MATE completa                                  |1|
 |Ubuntu Desktop 20.04 | Container Docker | MATE Docker.io pnetlab/linux-desktio:latest |2|
 
-**Obs.:** _As imagens de VMs completas (Xubuntu e MATE) podem ser substituidas pelo MATE Docker.io que é bem mais leve, basta instalar o VLC nele._
-_Esta imagem está diponível na sessão **Devices** do PNETLab com nome de Ubuntu Desktop 20.04_
+**Obs.:** _As imagens de VMs completas (Xubuntu e MATE) podem ser substituídas pelo MATE Docker.io que é bem mais leve, basta instalar o VLC nele._
+_Esta imagem está disponível na seção **Devices** do PNETLab com o nome de Ubuntu Desktop 20.04_
+
 
 ---
 
@@ -473,13 +474,13 @@ Configurar todos os dispositivos finais (VMs, Linux_docker e VPCs), com:
 * Gateway
 * DNS (8.8.8.8 ou de sua preferência)
 
-De acordo com tabela anterior.
+De acordo com a tabela anterior.
 
 
 ---
 
 
-## Trafego multicast com VLC
+## Tráfego multicast com VLC
 
 ### Via interface gráfica
 
@@ -616,7 +617,7 @@ Com o protocolo de roteamento dinâmico OSPF ativo, no caso de haver enlaces red
 
 ## Navegação externa
 
-Com o roteador R3 funcionando como **default Gatway** da rede, todo trafego que não for para as redes do cenário será encaminhado para o R3 e ele encaminhará para a rede externa (Internet).
+Com o roteador R3 funcionando como **default Gateway** da rede, todo tráfego que não for para as redes do cenário será encaminhado para o R3 e ele encaminhará para a rede externa (Internet).
 
 **Testes**
 
