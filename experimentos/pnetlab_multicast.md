@@ -31,6 +31,9 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 <img width="1699" height="775" alt="Captura de tela de 2026-04-11 22-58-45" src="https://github.com/user-attachments/assets/9afde004-acf4-4c97-9079-5281353c15c8" />
 
 
+[Link PNETLab_cenario_multicast](https://drive.google.com/file/d/1Kf5xcbVRnbyAZdMYHyUbXZBRXFpl_gkQ/view?usp=drive_link)
+
+
 ---
 
 
@@ -573,9 +576,6 @@ No Xubuntu ou outro PC, você pode abrir o stream rapidamente assim:
 vlc rtp://224.1.1.1:5004
 ```
 
-
-
-**Dica de Debug:** Se o vídeo não aparecer no receptor, dê um `tcpdump -i eth0 host 224.1.1.1` no cliente para ver se os pacotes UDP estão sequer chegando na interface.
 
 ---
 
