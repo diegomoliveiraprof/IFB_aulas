@@ -46,7 +46,7 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 | VPCs           | PC virtual       | VPCs                                                  |4|
 | VM Xubuntu    | Máquina VM | Xubuntu completa                                     |1|
 | VM Linux MATE | Máquina VM | Linux MATE completa                                  |1|
-| MATE Docker.io | Container Docker | pnetlab/linux-desktio:latest |2|
+|Ubuntu Desktop 20.04 | Container Docker | MATE Docker.io pnetlab/linux-desktio:latest |2|
 
 **Obs.:** _As imagems de VMs completas (Xubuntu e MATE) podem ser substituidas pelo MATE Docker.io que é bem mais leve, basta instalar o VLC nele._
 
