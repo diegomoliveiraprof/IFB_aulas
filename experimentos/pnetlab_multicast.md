@@ -49,7 +49,7 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 |Ubuntu Desktop 20.04 | Container Docker | MATE Docker.io pnetlab/linux-desktio:latest |2|
 
 **Obs.:** _As imagems de VMs completas (Xubuntu e MATE) podem ser substituidas pelo MATE Docker.io que é bem mais leve, basta instalar o VLC nele._
-_Eta imagem está disponícel na sessão **Devices** do PNETLab com nome de Ubuntu Desktop 20.04_
+_Esta imagem está disponícel na sessão **Devices** do PNETLab com nome de Ubuntu Desktop 20.04_
 
 ---
 
