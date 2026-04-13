@@ -30,11 +30,12 @@
 
 | Aspecto         | Simulador (Packet Tracer) | Emulador (PNETLab) | Emulador (GNS3) |
 |-----------------|----------------------------|---------------------|-----------------|
+| **Exemplo**     | Cisco Packet Tracer        | PNETLab             | GNS3 |
 | **Natureza**    | Imita o funcionamento      | Executa o sistema real | Executa o sistema real |
 | **Complexidade**| Mais simples               | Mais avançado       | Avançado, mas flexível |
 | **Recursos**    | Limitados a funções básicas| Recursos completos dos equipamentos | Suporte a múltiplas imagens IOS e integração com VMs |
 | **Uso típico**  | Ensino introdutório        | Treinamento profissional | Certificações (CCNP/CCIE) e ambientes de teste |
-| **Exemplo**     | Cisco Packet Tracer        | PNETLab             | GNS3 |
+
 
 
 ---
