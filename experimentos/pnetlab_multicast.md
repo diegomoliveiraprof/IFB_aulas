@@ -34,6 +34,8 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 
 [Link PNETLab_cenario_multicast](https://drive.google.com/file/d/1Kf5xcbVRnbyAZdMYHyUbXZBRXFpl_gkQ/view?usp=drive_link)
 
+[Video para transmissão](https://drive.google.com/file/d/1WbsuIOx4nSo45Grp3FJiK7j3JBj_sFU7/view?usp=sharing)
+
 
 ---
 
