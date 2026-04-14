@@ -28,7 +28,8 @@ O objetivo deste laboratório é projetar, configurar e validar uma infraestrutu
 ## Cenário
 
 
-<img width="1699" height="775" alt="Captura de tela de 2026-04-11 22-58-45" src="https://github.com/user-attachments/assets/9afde004-acf4-4c97-9079-5281353c15c8" />
+<img width="1133" height="628" alt="Captura de tela de 2026-04-14 09-23-39" src="https://github.com/user-attachments/assets/a89b75be-aa68-42fd-ad1f-7f051b4a93f9" />
+
 
 
 [Link PNETLab_cenario_multicast](https://drive.google.com/file/d/1Kf5xcbVRnbyAZdMYHyUbXZBRXFpl_gkQ/view?usp=drive_link)
