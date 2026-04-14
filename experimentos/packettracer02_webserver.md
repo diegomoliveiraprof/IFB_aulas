@@ -13,7 +13,7 @@ Com este experimento, o aluno irá:
 
 ## Experimento
 
-Nesta atividade, o estudante deverá:
+
 
 
  ---
@@ -28,10 +28,12 @@ Nesta atividade, o estudante deverá:
 
 ---
 
+Nesta atividade, o estudante deverá:
+
 1. Abrir o arquivo `.pkt` fornecido, que contém um cenário pré-configurado com duas redes:  
    - Uma **rede local**.  
    - Uma **rede simulando a Internet**, com um **servidor Web** e um **servidor DNS**.  
-2. Adicionar **5 dispositivos finais**.  
+2. Adicionar **5 dispositivos finais** a rede doméstica.  
 3. Configurar o **endereçamento IPv4**.  
 4. Testar a **conexão interna** utilizando o comando `ping`.  
 5. Verificar a possibilidade de **configuração de um servidor** no Packet Tracer.  
