@@ -15,12 +15,22 @@ Com este experimento, o aluno irá:
 
 Nesta atividade, o estudante deverá:
 
+
+ ---
+
+
+ <img width="1916" height="1078" alt="Captura de tela de 2026-04-14 08-30-39" src="https://github.com/user-attachments/assets/7696bf3e-eb3a-49b0-9d45-756bb48c313c" />
+
+ ---
+ 
+ <img width="1916" height="1078" alt="Captura de tela de 2026-04-14 08-34-54" src="https://github.com/user-attachments/assets/368cdf8b-1e13-4783-adc4-18116c150b15" />
+
+
+---
+
 1. Abrir o arquivo `.pkt` fornecido, que contém um cenário pré-configurado com duas redes:  
    - Uma **rede local**.  
    - Uma **rede simulando a Internet**, com um **servidor Web** e um **servidor DNS**.  
-   <img width="1402" height="484" alt="Captura de tela de 2026-04-03 17-13-35" src="https://github.com/user-attachments/assets/ca8bd7d0-8614-482c-b488-6a110dcf47c1" />
-
- 
 2. Adicionar **5 dispositivos finais**.  
 3. Configurar o **endereçamento IPv4**.  
 4. Testar a **conexão interna** utilizando o comando `ping`.  
