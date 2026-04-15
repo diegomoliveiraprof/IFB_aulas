@@ -49,7 +49,7 @@ Compreender o processo de **atribuição dinâmica de endereços IP** e a **inte
      DHCP || arp
      ```
 
-     No filtro, operador lógico `ou` pode ser representado como `or` e como `||` (pipe 2x)
+     No filtro, o operador lógico `ou` pode ser representado como `or` e como `||` (pipe 2x)
 
      
 
