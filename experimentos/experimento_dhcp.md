@@ -72,5 +72,5 @@ Compreender o processo de **atribuição dinâmica de endereços IP** e a **inte
 4. Observe se há **mensagens ARP** após o DHCP ACK. Qual é o propósito delas?
 5. Identifique os **endereços MAC** envolvidos e explique sua importância na comunicação.
 
-Utilize capturas de tela para justificar cada resposta e destaque na imagem o item que está sendo analisado.
+Utilize capturas de tela para justificar cada resposta e destaque na imagem o item que está sendo analisado.   
 Organize bem suas respostas em um arquivo PDF, o arquivo também deve incluir as perguntas.
