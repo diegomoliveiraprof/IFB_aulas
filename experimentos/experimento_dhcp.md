@@ -1,4 +1,4 @@
-# Experimento - DHCP
+# Experimento DHCP
 
 ## Objetivo
 
