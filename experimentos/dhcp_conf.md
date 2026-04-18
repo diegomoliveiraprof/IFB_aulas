@@ -179,13 +179,32 @@ Existem vários serviços de DHCP que podem ser instalados no Linux, dentre eles
 
       `dhclient -v` → solicita um novo endereço IP ao servidor DHCP.
 
-  
 
+
+  **Leases Ativos**   
+
+    No isc-dhcp-server os leases (empréstimos) ativos ficam registrados no arquivo `dhcpd.leases`.
+    Verificando o arquivo:
+    
+    ```
+    cat /var/lib/dhcp/dhcpd.leases
+    ```   
+
+
+    Os leases também podem ser consultados com o comando:
+    ```
+    dhcp-lease-list
+    
+    ```
+
+
+
+    
   ## 5. Reserva de endereços
 
   O serviço DHCP vincula o end. MAC da placa de rede ao end. IP atribuído, essa característica pode ser usada para criar **Reservas** de endereços.
 
-  
+
 
   A reserva de endereços IP no serviço DHCP consiste em vincular o endereço MAC da placa de rede de um dispositivo a um endereço IP específico. Dessa forma, sempre que o dispositivo solicitar configuração de rede ao servidor DHCP, ele receberá o mesmo IP previamente reservado, garantindo consistência e previsibilidade na rede.
 
