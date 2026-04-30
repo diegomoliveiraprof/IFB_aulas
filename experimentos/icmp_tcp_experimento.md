@@ -30,10 +30,10 @@ Executar o experimento e responder às questões em um relatório, utilizar _pri
 
 2. Mostrar a saída do comando `tracert` e responder aos seguintes itens:
 
-   a. Quantos saltos até o destino?
-   b. Foi possível obter informações de algum roteador no caminho?
-   c. Analisando a captura, quais os protocolos foram utilizados pelo Tracert?
-   d. Quais os tipos e códigos dos pacotes ICMP utilizados?
+   a. Quantos saltos até o destino?   
+   b. Foi possível obter informações de algum roteador no caminho?   
+   c. Analisando a captura, quais os protocolos foram utilizados pelo Tracert?   
+   d. Quais os tipos e códigos dos pacotes ICMP utilizados?   
 
    
 
