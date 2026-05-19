@@ -84,7 +84,7 @@ percentual = percentual / 100
 reajuste = salario * percentual
 salario_atualizado = salario + reajuste
 
-print(f"\\nReajuste: R$ {reajuste:.2f}")
+print(f"\n\nReajuste: R$ {reajuste:.2f}")
 print(f"Salário atualizado: R$ {salario_atualizado:.2f}")
 ```
 
