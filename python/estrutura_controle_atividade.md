@@ -1,4 +1,4 @@
-# Estruturas de controle em python
+# Estruturas de controle em python - Atividade
 Crie um programa que simule o funcionamento de um caixa eletrônico. O usuário inicia com um saldo fictício e pode realizar as seguintes operações por um menu iterativo:
 Consultar saldo
 Depositar dinheiro
