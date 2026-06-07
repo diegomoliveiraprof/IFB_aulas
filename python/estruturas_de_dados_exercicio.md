@@ -31,16 +31,17 @@ def adicionar_tarefa(lista, descricao, prioridade):
         "status": "pendente"
     }
     lista.append(tarefa)
+    # Ordena as tarefas pela prioridade (1 = mais alta)
+    return sorted(lista, key=lambda x: x["prioridade"])
 
 
 def listar_tarefas(lista):
     """Exibe todas as tarefas ordenadas por prioridade."""
-    # Ordena as tarefas pela prioridade (1 = mais alta)
-    tarefas_ordenadas = sorted(lista, key=lambda x: x["prioridade"])
+
     print("\n--- Lista de Tarefas ---")
 
     # Percorre cada tarefa ordenada e imprime os detalhes
-    for i, tarefa in enumerate(tarefas_ordenadas, start=1):
+    for i, tarefa in enumerate(lista, start=1):
         print(
             f"{i}. Descrição: {tarefa['descrição']} | Prioridade: {tarefa['prioridade']} | Status: {tarefa['status']}"
         )
@@ -58,6 +59,7 @@ def concluir_tarefa(lista, indice):
 
     # Verifica se o índice está dentro do intervalo válido da lista
     if 0 <= indice < len(lista):
+        #print(lista)
         lista[indice]["status"] = "concluída"
         print("Tarefa marcada como concluída!")
     else:
@@ -80,7 +82,7 @@ def main():
         if opcao == "1":
             descricao = input("Digite a descrição da tarefa: ")
             prioridade = int(input("Digite a prioridade (1 a 5): "))
-            adicionar_tarefa(lista_tarefas, descricao, prioridade)
+            lista_tarefas = adicionar_tarefa(lista_tarefas, descricao, prioridade)
             print("Tarefa adicionada com sucesso!")
 
         elif opcao == "2":
@@ -99,8 +101,8 @@ def main():
             print("Opção inválida. Tente novamente.")
 
 
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+main()
 ```
 
 
