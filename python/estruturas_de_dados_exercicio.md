@@ -134,7 +134,7 @@ main()
 - **Ordenação de lista de dicionários**
 
   ```python
-  tarefas_ordenadas = sorted(lista, key=lambda x: x["prioridade"])
+  return sorted(lista, key=lambda x: x["prioridade"])
   ```
 
   O `sorted` cria uma nova lista ordenada.
