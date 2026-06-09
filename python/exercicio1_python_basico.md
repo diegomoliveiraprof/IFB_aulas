@@ -123,7 +123,7 @@ def mostraContato(agenda):
             print("Contato não encontrado!")
 
 # Edita um contato existente na agenda            
-def editarConato(agenda):
+def editarContato(agenda):
     print("\n==Editar Contato==")
     # Verifica se a agenda está vazia
     if not agenda:
@@ -189,7 +189,7 @@ def menu(agenda):
         if op == '1':
             addContato(agenda)
         elif op == '2':
-            editarConato(agenda)
+            editarContato(agenda)
         elif op == '3':
             mostraContato(agenda)
         elif op == '4':
@@ -218,6 +218,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
 
 
 
