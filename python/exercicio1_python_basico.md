@@ -33,7 +33,7 @@ _obs_.:  _esta é apenas uma possível solução!_
    - caso encontre, retorna o dicionário com todos os dados do contato.
    - caso não encontre, retorna falso
  - Função `addContato`:
-   - recebe a lita de contatos **agenda**.
+   - recebe a lista de contatos **agenda**.
    - solicita no nome do novo contato
    - chama a função `buscaContato` para verificar se já existe um contato com o nome fornecido.
    - caso o nome já esteja na agenda, exibe mensagem de erro e retorna ao menu.
@@ -42,7 +42,7 @@ _obs_.:  _esta é apenas uma possível solução!_
      - adiciona em um novo dicionário.
      - adiciona o dicionário a lista **agenda**.
  - Função `editarContato`:
-   - recebe a lita de contatos **agenda**.
+   - recebe a lista de contatos **agenda**.
    - verifica se a lista de contatos está vazia, caso esteja, exibe mensagem de erro e retorna ao menu.
    - solicita o nome do contato a ser editado.
    - chama a função `buscaContato` para verificar se já existe um contato com o nome fornecido, caso não exista, exibe mensagem de erro e retorna ao menu.
@@ -51,18 +51,18 @@ _obs_.:  _esta é apenas uma possível solução!_
    - adiciona em um novo dicionário.
    - substitui o dicionario anterior da lista pelo novo, usando o índice como referência.
  - Função `mostraContato`:
-   - recebe a lita de contatos **agenda**.
+   - recebe a lista de contatos **agenda**.
    - verifica se a lista de contatos está vazia, caso esteja exibe mensagem de erro e retorna ao menu.
    - solicita o nome do contato a ser editado.
    - chama a função `buscaContato` para verificar se existe um contato com o nome fornecido, caso não exista, exibe mensagem de erro e retorna ao menu.
    - caso exista, imprime as informações do contato.
  - Função `listaContatos`:
-   - recebe a lita de contatos **agenda**.
+   - recebe a lista de contatos **agenda**.
    - verifica se a lista de contatos está vazia, caso esteja exibe mensagem de erro e retorna ao menu.
    - caso contrário, cria uma nova lista ordenada por ordem alfabética, pela chave 'Nome' dos dicionários.
    - imprime a lista de contatos ordenada.
  - Função `removeContato`:
-   - recebe a lita de contatos **agenda**.
+   - recebe a lista de contatos **agenda**.
    - verifica se a lista de contatos está vazia, caso esteja exibe mensagem de erro e retorna ao menu.
    - solicita o nome do contato a ser editado.
    - chama a função `buscaContato` para verificar se já existe um contato com o nome fornecido, caso não exista, exibe mensagem de erro e retorna ao menu.
