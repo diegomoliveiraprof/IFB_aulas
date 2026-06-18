@@ -270,113 +270,124 @@
    6 - Sair.
 
    ```python
-   def remover(lista):
-     # Busca o contato usando a função 'buscar'
-     contato = buscar(lista)
-     if contato:
-       lista.remove(contato)
-       print("Removido!!")
-   
-   def editar(lista):
-     # Busca o contato usando a função 'buscar'
-     contato = buscar(lista)
-   
-     # Se o contato for encontrado
-     if contato:
-         # Encontra o índice do contato na lista
-         indice = lista.index(contato)
-   
-         # Atualizar os valores do item na lista, usando o indice e a chave do dicionário
-         lista[indice]["end"] = input("Endereço: ")
-         lista[indice]["email"] = input("E-mail: ")
-         lista[indice]["tel"] = input("Telefone: ")
-         print("Contato atualizado:")
-         print(f"{indice} - Nome: {contato["nome"]}- Endereço: {contato["end"]} - E-mail: {contato["email"]}- Telefone: {contato["tel"]}")
-   
-   def buscar(lista):
-     nome = input("Nome contato: ")
-     for contato in lista:
-       if nome == contato["nome"]:
-         print("Contato encontrado")
-         print(f"Nome: {contato["nome"]}- Endereço: {contato["end"]} - E-mail: {contato["email"]}- Telefone: {contato["tel"]}")
-         return contato # Retorna o contato encontrado
-   
-     print("Contato não localizado!")
-     return None # Retorna None se não encontrar
-   
-   def adicionar(lista):
-     print("Verificando se contato já existe!")
-     contato = buscar(lista)
-     if contato:
-       return None
-     else:
-       # Cria um dicionário com as informações do novo contato
-       print("Criando novo contato:")
-       contato_novo = {
-           "nome": input("Nome: "),
-           "end": input("Endereço: "),
-           "email": input("E-mail: "),
-           "tel": input("Telefone: ")
-       }
-     print("Novo contato criado!")
-     return contato_novo # Retorna o novo contato
-   
-   def listar(lista):
-     # Ordena a lista de contatos pelo nome
-     lista_ordenada = sorted(lista,key=lambda x:x["nome"])
-   
-     for index, contato in enumerate(lista_ordenada, start=1):
-       print(f"{index} - Nome: {contato["nome"]}- Endereço: {contato["end"]} - E-mail: {contato["email"]}- Telefone: {contato["tel"]}")
-   
-   def menu(lista):
-     while True:
-       print("\n==Menu==")
-       print("1- Adicionar")
-       print("2- Editar")
-       print("3- Buscar")
-       print("4- Listar")
-       print("5- Remover")
-       print("6- Sair\n")
-   
-       op= input("Escolha: ")
-   
-       match op:
-         case "1":
-           print("\n==Adicionar==")
-           lista.append(adicionar(lista)) # chama a função para criar o novo dicionário e adiciona na lista
-         case "2":
-           print("==Editar==")
-           editar(lista) 
-         case "3":
-           print("==Buscar==")
-           buscar(lista)
-         case "4":
-           print("==Listar==")
-           listar(lista) 
-         case "5":
-           print("==Remover==")
-           remover(lista)
-         case "6":
-           print("==Sair==")
-           print("saindo\n")
-           break # 
-         case _:
-           print("Opção inválida!...")
-   
-   # Função principal que inicializa a lista de contatos e chama o menu
-   def main():
-       # Lista de contatos inicial para testes
-       lista=[
-         {"nome": "fulano1", "end":"qr1,cj1,cs1", "email":"fulano1@exemplo.com", "tel":"1111111"},
-         {"nome": "fulano3", "end":"qr3,cj3,cs3", "email":"fulano3@exemplo.com", "tel":"3333333"},
-         {"nome": "fulano2", "end":"qr2,cj2,cs2", "email":"fulano2@exemplo.com", "tel":"2222222"}
+         def adicionar(lista):
+           """Cria um novo contato via input e o adiciona à lista."""
+           contato={
+               "nome": input("Nome: "),
+               "end": input("Endereço: "),
+               "email": input("E-mail: "),
+               "tel": input("Telefone: ")
+           }
+           lista.append(contato)
+           print("Novo contato adicionado: ")
+           # Ajustado aspas internas para ' para evitar erro de sintaxe
+           print(f"Nome: {contato['nome']} - Endereço: {contato['end']} - E-mail: {contato['email']} - Telefone: {contato['tel']} ")
          
-         ]
-       
-       menu(lista) # Inicia o menu da agenda
-   
-   # Garante que a função main() seja chamada quando o script for executado
-   main()
+         
+         def editar(lista):
+           """Busca um contato e atualiza seus dados (exceto o nome)."""
+           if not lista:
+               print("Lista vazia!")
+               return
+         
+           contato = buscar(lista)
+         
+           if not contato:
+             return
+           else:
+             contato["end"] = input("Novo endereço: ")
+             contato["email"] = input("Novo e-mail: ")
+             contato["tel"] = input("Novo telefone: ")
+             print("Contato editado:")
+             print(f"Nome: {contato['nome']} - Endereço: {contato['end']} - E-mail: {contato['email']} - Telefone: {contato['tel']} ")
+         
+         def remove(lista):
+           """Busca um contato pelo nome e o remove da lista."""
+           if not lista:
+               print("Lista vazia!")
+               return
+         
+           contato = buscar(lista)
+           if not contato:
+             return
+           else:
+             lista.remove(contato)
+             print(f"Contato: {contato['nome']} - REMOVIDO")
+         
+         
+         def buscar(lista):
+           """Procura um contato pelo nome. Retorna o dicionário se achar, ou None."""
+           if not lista:
+             print("Lista vazia!")
+             return
+         
+           nome = input("Nome contato: ")
+         
+           for contato in lista:
+             if contato["nome"] == nome:
+               print("Contato Encontrado:")
+               print(f"Nome: {contato['nome']} - Endereço: {contato['end']} - E-mail: {contato['email']} - Telefone: {contato['tel']} ")
+               return contato # Retorna a referência direta do contato encontrado
+         
+           print("Contato não encontrado...")
+           return None
+         
+         def listar(lista):
+           """Exibe todos os contatos ordenados alfabeticamente pelo nome."""
+           if not lista:
+             print("Lista vazia!")
+             return
+         
+           # Ordena a lista temporariamente para exibição usando uma função lambda
+           lista_ordenada = sorted(lista, key=lambda contato: contato["nome"])
+           for indice, item in enumerate(lista_ordenada, start=1):
+             print(f"{indice}- Nome: {item['nome']} - Endereço: {item['end']} - E-mail: {item['email']} - Telefone: {item['tel']} ")
+         
+         
+         def main():
+           """Fluxo principal do programa e menu de navegação."""
+           # Dados de teste
+           lista=[{"nome":"Fulano3","end":"rua 1","email":"fulano1@teste.com","tel":"1111111"},
+                  {"nome":"Fulano2","end":"rua 2","email":"fulano2@teste.com","tel":"2222222"},
+                  {"nome":"Fulano1","end":"rua 3","email":"fulano3@teste.com","tel":"33333333"}
+                  ]
+         
+           while True:
+             print("\n==Menu==")
+             print("1- Adicionar")
+             print("2- Editar")
+             print("3- Buscar")
+             print("4- Listar")
+             print("5- Remover")
+             print("6- Sair")
+         
+             op = input("Escolha uma opção: ")
+         
+             # ESTRUTURA CONDICIONAL 
+             match op:
+               case "1":
+                 print("\nAdicionar")
+                 adicionar(lista)
+               case "2":
+                 print("\nEditar")
+                 editar(lista)
+               case "3":
+                 print("\nBuscar")
+                 buscar(lista)
+               case "4":
+                 print("\nListar")
+                 listar(lista)
+               case "5":
+                 print("\nRemover")
+                 remove(lista)
+               case "6":
+                 print("\nSair")
+                 print("Saindo....")
+                 break
+               case _:
+                 print("Opção inválida!")
+         
+         main()
    ```
 
    
