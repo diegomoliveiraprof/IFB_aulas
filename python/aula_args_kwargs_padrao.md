@@ -39,7 +39,7 @@ O caractere crucial aqui é o asterisco `*`. O Python empacota todos esses valor
   soma(1, 2, 3)
   soma(10, 20, 30, 40)
 ```
-> O detalhe aqui é que os argumentos são **posicionais** ou seja devem ser acessados de acordo dua possição na passagem.
+> O detalhe aqui é que os argumentos são **posicionais** ou seja devem ser acessados de acordo sua possição na passagem.
 
 ---
 
