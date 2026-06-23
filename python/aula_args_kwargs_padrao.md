@@ -39,11 +39,41 @@ O caractere crucial aqui é o asterisco `*`. O Python empacota todos esses valor
   soma(1, 2, 3)
   soma(10, 20, 30, 40)
 ```
-> O detalhe aqui é que os argumentos são **posicionais** ou seja devem ser acessados de acordo sua possição na passagem.
+> O detalhe aqui é que os argumentos são **posicionais** ou seja devem ser acessados de acordo sua posição na passagem.
 
 ---
 
 ## O **kwargs Argumentos Nomeados Variáveis
-Semelhante ao `*args`, mas para argumentos nomeados (chave=valor). O Python empacota esses argumentos em um Dicionário. Usamos dois asteriscos ().
+Semelhante ao `*args`, mas para argumentos nomeados (chave=valor).   
+O Python empacota esses argumentos em um Dicionário. Usamos dois asteriscos `**`.  
+**kwargs vai permitir passar uma quantidade variável de argumentos nomeados.
 
-💡 Analogia: É como uma ficha de cadastro ou um formulário com campos personalizados. Você passa o nome do campo e o valor correspondente.
+
+```python
+  def exibir_info(**kwargs):
+      for chave, valor in kwargs.items():
+          print(f"{chave}: {valor}")
+  
+  exibir_info(nome="Fulano", idade=30, cidade="Brasília")
+```
+> **kwargs é tratado como um dicionário dentro da função. 
+
+---
+
+# Fixação
+
+1. Crie uma função saudacao que receba nome (padrão = "Aluno") e mensagem (padrão = "Bem-vindo").    
+Teste chamando a função sem argumentos, com apenas um argumento e com os dois.
+
+2. Crie uma função area_retangulo (largura x altura) que receba largura e altura sendo altura(padrão = 1).    
+Calcule a área e teste chamando a função com diferentes combinações de parâmetros.
+
+3. Crie uma função media que receba vários números via *args e retorne a média deles.
+
+4. Crie uma função concatenar que receba várias strings via *args e retorne uma única string concatenada.
+
+5. Crie uma função perfil_usuario que receba informações como nome, idade, cidade via **kwargs e exiba formatado.
+
+6. Crie uma função configuracoes que receba parâmetros opcionais como tema, idioma, notificacoes via **kwargs e mostre as configurações escolhidas.
+
+
