@@ -40,3 +40,10 @@ O caractere crucial aqui é o asterisco `*`. O Python empacota todos esses valor
   soma(10, 20, 30, 40)
 ```
 > O detalhe aqui é que os argumentos são **posicionais** ou seja devem ser acessados de acordo dua possição na passagem.
+
+---
+
+## O **kwargs Argumentos Nomeados Variáveis
+Semelhante ao `*args`, mas para argumentos nomeados (chave=valor). O Python empacota esses argumentos em um Dicionário. Usamos dois asteriscos ().
+
+💡 Analogia: É como uma ficha de cadastro ou um formulário com campos personalizados. Você passa o nome do campo e o valor correspondente.
