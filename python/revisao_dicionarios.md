@@ -121,29 +121,31 @@ for indice, item in enumerate(estoque.items(), start=1):
     print(f"{indice} - {chave}: {valor}")
 ```
 
+---
 
+
+   
 
 # Exercício de revisão
 
-1. Atividades básicas com dicionários - com base na revisão sobre dicionários crie um programa em Python que:
+1. Atividades básicas com dicionários - com base na revisão sobre dicionários crie um programa em Python que:   
+    a. Crie um menu interativo com as seguintes opções:
+         
+   		1 Adicionar Item   
+   		2 Remover Item   
+   		3 Listar Estoque   
+   		4 Sair   
 
-   1. Crie um menu interativo com as seguintes opções: 
+      O menu deve ser repetir até que o usuário escolha a opção "Sair", e deve mostrar mensagem caso o usuário escolha uma opção inválida.   
 
-      1. Adicionar Item
-      2. Remover Item
-      3. Listar Estoque
-      4. Sair
+	b. Comece com um dicionário chamado `estoque`.   
 
-      O menu deve ser repetir até que o usuário escolha a opção "Sair", e deve mostrar mensagem caso o usuário escolha uma opção inválida.
+      ​	Ex.: `estoque={"caneta azul":10,"caderno":10, "lapis":40}`   
 
-	2. Comece com um dicionário chamado `estoque`.
-
-      ​	Ex.: `estoque={"caneta azul":10,"caderno":10, "lapis":40}`
-
-	3. Imprima o estoque atualizado na tela.
-	4. Permita ao usuário **adicionar** um item com sua quantidade.
-	5. Permita ao usuário **remover** um item do estoque.
-	6. . Mostre todos os item e quantidades.
+	c. Imprima o estoque atualizado na tela.   
+	d. Permita ao usuário **adicionar** um item com sua quantidade.   
+	e. Permita ao usuário **remover** um item do estoque.   
+	f. Mostre todos os item e quantidades.   
 
 ---
 
