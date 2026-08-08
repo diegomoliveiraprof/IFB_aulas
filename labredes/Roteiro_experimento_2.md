@@ -277,3 +277,25 @@ O administrador de redes pediu que você prepare o RTA e SW1 para implantação.
 2. Apresente um print da configuração da interface VLAN1 no switch com IP e máscara. Explique a função dessa interface.
 3. Apresente um print da configuração do gateway no switch. Justifique por que o gateway seria necessário?
 4. Capture a tela do PC-A estabelecendo conexão SSH com o roteador. Explique a diferença entre usar SSH e Telnet em termos de segurança.
+
+---
+
+
+
+EQUIPAMENTO E MATERIAL
+Microcomputadores do laboratório.
+
+---
+
+
+
+
+BIBLIOGRAFIA   
+[1] J. F. Kurose e K. W. Ross – Computer Networks: A Top-Down Approach. (5th ed.). Pearson
+Addison-Wesley, 2009.   
+[2] W. Stallings - Data and Computer Communications. Prentice-Hall, 2006.   
+[3] F. C. Xavier - Roteadores Cisco. (2a ed.). Novatec, 2010.   
+[4] Cisco Networking Academy, disponível em http://cisco.netacad.net.   
+[5] Sites diversos sobre protocolo RIP na Internet.   
+
+**Adatptado de www.netacad.com**
