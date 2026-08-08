@@ -47,11 +47,11 @@ A configuração de senhas fortes e o uso do protocolo SSH são práticas essenc
 
 ### Interface VLAN1
 
-* **VLAN1** é a VLAN padrão em switches Cisco.
+- **VLAN1** é a VLAN padrão em switches Cisco.
 
-A interface VLAN1 é uma **interface lógica** usada para dar ao switch um endereço IP.
+- A interface VLAN1 é uma **interface lógica** usada para dar ao switch um endereço IP.
 
-Esse IP não é para encaminhar pacotes entre redes, mas sim para **gerenciamento remoto** (Telnet, SSH, SNMP).
+- Esse IP não é para encaminhar pacotes entre redes, mas sim para **gerenciamento remoto** (Telnet, SSH, SNMP).
 
 
 
@@ -67,17 +67,18 @@ Esse IP não é para encaminhar pacotes entre redes, mas sim para **gerenciament
 
 
 
-1. Crie um cenário no cisco Packet Tracer com os seguintes dispositivos:
+1. Crie um cenário no Cisco Packet Tracer com os seguintes dispositivos:
 
-   - 1 Roteadores 1941
+   - 1 Roteador 1941
 
-   - 1 Switche 2960
+   - 1 Switch 2960
 
-   - 1 Dispositivos final (PC/Laptop)
+   - 1 Dispositivo final (PC/Laptop)
 
    - O cenário deverá ser montado e configurado da seguinte forma:
 
-     ![](/home/diego/.config/Typora/typora-user-images/image-20260808153628629.png)
+     <img width="458" height="352" alt="Captura de tela de 2026-08-08 15-36-25" src="https://github.com/user-attachments/assets/e75f7b9f-fddb-4cd3-878f-187e940b9e9d" />
+
 
 
 
@@ -89,9 +90,9 @@ Esse IP não é para encaminhar pacotes entre redes, mas sim para **gerenciament
 
 
 
-O administrador de redes pediu que você prepare o RTA e SW1para implantação. Antes de conectá-lo à rede, você deve ativar medidas de segurança.
+O administrador de redes pediu que você prepare o RTA e SW1 para implantação. Antes de conectá-lo à rede, você deve ativar medidas de segurança.
 
-### Intrusões
+### Instruções
 
 #### Etapa 1: Implementar as Medidas Básicas de Segurança no Roteador
 
@@ -139,7 +140,7 @@ O administrador de redes pediu que você prepare o RTA e SW1para implantação. 
    RTA(config)#enable secret sua_senha
    ```
 
-8. Desative a pesquisa de DNS. Para evitar que o sistema tente traduzir comandos entradas erradas.
+8. Desative a pesquisa de DNS. Para evitar que o sistema tente traduzir entradas erradas.
 
    ```
    RTA(config)#no ip domain-lookup
@@ -247,7 +248,7 @@ O administrador de redes pediu que você prepare o RTA e SW1para implantação. 
    SW1(config-if-range)#shutdown
    ```
 
-   O comando usou o intervalo de portas de 2-24 para as portas FastEthernet e, em seguida, um único intervalo de porta de GigabiteTherNet0/2.
+   O comando usou o intervalo de portas de 2-24 para as portas FastEthernet e, em seguida, um único intervalo de porta de Gigabitethernet0/2.
 
 5. Criptografe todas as senhas em texto simples.
 
