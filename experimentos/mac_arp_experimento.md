@@ -62,6 +62,6 @@ que possível para justificar suas respostas.
    - Mostre como identificar cada um no Wireshark.
 
 7. **Camada de enlace**
-   - Selecione a **camada de enlace** de um pacote da captura.  
+   - Selecione a **camada de enlace** de um pacote do tipo **ARP** da captura.  
    - Identifique qual protocolo está encapsulado nela.  
    - Inclua **prints da tela** para justificar sua resposta.
