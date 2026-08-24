@@ -12,7 +12,7 @@ Executar o experimento e responder às questões em um relatório, utilizar _pri
 
 ## Experimento
 
-### Parte 1 - configuração de rede
+### Parte 1 - configuração de rede ambiente SIMULADO no Cisco Packet Tracer
 
 O estudante deverá configurar uma rede no simulador:
 
@@ -79,7 +79,7 @@ O estudante deverá configurar uma rede no simulador:
   ```
 
 
-### Parte 2 - análise de endereçamento IP e rotas
+### Parte 2 - análise de endereçamento IP e rotas - Máquina REAL(física)
 
 O estudante irá analisar informações de rede da máquina física que estiver utilizando:
 
