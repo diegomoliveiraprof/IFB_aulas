@@ -66,8 +66,7 @@ Além disso, configurações de segurança como SSH e criptografia de senhas gar
 | **/28**  | 255.255.255.240     | 4                   | 14                    |
 | **/29**  | 255.255.255.248     | 3                   | 6                     |
 | **/30**  | 255.255.255.252     | 2                   | 2                     |
-| **/31**  | 255.255.255.254     | 1                   | 2 (ponto a ponto)     |
-| **/32**  | 255.255.255.255     | 0                   | 1 (host único)        |
+
 
 
 
