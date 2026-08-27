@@ -48,12 +48,9 @@ O estudante deverá configurar uma rede no simulador:
    Rede 2 - 192.168.11.0/24
    
    Rede 3 - 192.168.21.0/24
-   
-   Rede 4 - 192.168.30.0/24
-   
-   Rede 5 - 192.168.45.0/24
-   
-   Rede 6 - 192.168.51.0/24
+  ....
+  ....
+  ....
    
    Configuração dos roteadores
    =============================================
