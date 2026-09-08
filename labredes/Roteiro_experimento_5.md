@@ -312,7 +312,8 @@ Implementar uma topologia redundante em laboratório utilizando **VLANs**, **Eth
 
 1. **EtherChannel em funcionamento**   Configure o EtherChannel entre o Switch1 e o Switch0. Em seguida, execute o comando `show etherchannel summary`.
    - Pergunta: O Port-Channel aparece como ativo?
-   - Evidência: Capture a tela mostrando o resultado do comando.   
+   - Evidência: Capture a tela mostrando o resultado do comando.
+   - Verifique a Bandwidth/Largura de Banda do enlace com o comando `show interfaces port-channel 1`
      
 2. **DHCP Snooping aplicado**   Após a configuração do DHCP Snooping. Conecte um servidor DHCP falso em uma porta não confiável e observe o comportamento.
    - Pergunta: O switch bloqueou as mensagens DHCP vindas da porta não confiável?
