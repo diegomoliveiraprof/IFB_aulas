@@ -37,6 +37,7 @@ flowchart LR
     GWext <---> NAT
     VPCext <---> NAT
 ```
+<img width="897" height="501" alt="image" src="https://github.com/user-attachments/assets/4df47c91-c610-4817-aa51-76ce2d41e329" />
 
 ### Explicação
 
