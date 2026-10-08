@@ -190,7 +190,7 @@ apt install iptables-persistent
 Salvar as regras atuais
 
 ```
-iptables-save > /etc/iptables/rules.v4
+netfilter-persistent save
 ```
 
 
