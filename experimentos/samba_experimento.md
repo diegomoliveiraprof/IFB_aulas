@@ -1,5 +1,10 @@
 # SAMBA - Compartilhamento de arquivos	
+Sonre o SAMBA
+Segundo o site samba.org, o Samba é uma suíte de aplicativos que permite que sistemas operacionais não Windows, como Linux, Unix e macOS (baseado em Unix), compartilhem arquivos e impressoras via rede com máquinas Windows. 
 
+O projeto foi iniciado em 1992 por Andrew Tridgell, a partir da necessidade de conectar uma máquina DOS a um servidor Unix. 
+
+O nome “Samba” deriva de SMB (Server Message Block), protocolo usado para compartilhamento de arquivos e dispositivos em rede. O Samba foi desenvolvido inicialmente por meio de engenharia reversa sobre o protocolo SMB e, ao longo dos anos, evoluiu para oferecer também serviços de autenticação e integração com Active Directory.
 
 
 ## 1. Objetivo
