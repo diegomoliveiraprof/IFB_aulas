@@ -52,10 +52,10 @@ Utilizar o comando `sudo` antes das instruções no terminal.
 ### Editando o arquivo de configuração de rede
 
 Antes de editar o arquivo de configuração de rede é necessário saber o nome das interfaces disponíveis na máquina.   
-Isso pode ser feito com o comando `networkclt`, que em sua saída, mostrará o nome das interfaces.
+Isso pode ser feito com o comando `networkctl`, que em sua saída, mostrará o nome das interfaces.
 Comando:
 ```
-networkcl
+networkctl
 
 ```
 Saída   
