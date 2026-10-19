@@ -129,8 +129,7 @@ O comando `ping` pode ser utilizado de uma máquina para outra, para realizar o 
 Para que uma máquina configurada como gateway permita o tráfego de dados entre diferentes redes, é necessário habilitar o encaminhamento de pacotes.   
 Dessa forma, os pacotes recebidos por suas interfaces de rede poderão ser redirecionados para outras máquinas, funcionando como ponto de passagem no fluxo de comunicação.   
 
-
-Comando:   
+ 
 Crie e abra um novo arquivo de configuração dentro da pasta `/etc/sysctl.d` usando o seu editor preferido:
 
 ```bash
@@ -139,7 +138,7 @@ sudo nano /etc/sysctl.d/99-ip-forward.conf
 
 **Adicionar a regra de encaminhamento:** 
 
-Escriva a seguinte linha dentro do arquivo recém-criado:
+Escreva a seguinte linha dentro do arquivo recém-criado:
 
 ```bash
 net.ipv4.ip_forward=1
